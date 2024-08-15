@@ -6,6 +6,6 @@
     },
     "squash": false,
     "args": {
-        "RELEASE": "0.0.1"
+        "RELEASE": "latest"
     }
 }
