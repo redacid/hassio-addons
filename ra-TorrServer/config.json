@@ -1,0 +1,34 @@
+{
+  "name": "TorrServer",
+  "version": "1.3.4",
+  "slug": "TorrServer",
+  "legacy": false,
+  "maintenance": {
+    "github_release": "https://github.com/YouROK/TorrServer/",
+    "include_prerelease": true,
+    "version_regex": "(\\d+\\.\\d+\\.?\\d*-?\\w*.?\\d*)"
+  },
+  "description": "Torrent Server",
+  "url": "https://github.com/petersendev/hassio-addons/tree/master/hyperion#readme",
+  "startup": "services",
+  "arch": [
+    "aarch64",
+    "amd64"
+  ],
+  "ports": {
+    "8090/tcp": 8090
+  },
+  "ports_description": {
+    "8090/tcp": "web interface"
+  },
+  "map": [
+    "config:rw",
+    "share:rw",
+    "ssl"
+  ],
+  "webui": "http://[HOST]:[PORT:8090]",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "image": "redacid/hassio-torrserver-{arch}"
+}
