@@ -1,12 +1,11 @@
 {
   "name": "TorrServer",
-  "version": "1.3.4",
+  "version": "134",
   "slug": "TorrServer",
   "legacy": false,
   "maintenance": {
     "github_release": "https://github.com/YouROK/TorrServer/",
-    "include_prerelease": true,
-    "version_regex": "(\\d+\\.\\d+\\.?\\d*-?\\w*.?\\d*)"
+    "include_prerelease": true
   },
   "description": "Torrent Server",
   "url": "https://github.com/redacid/hassio-addons/tree/main/ra-TorrServer#readme",
@@ -30,5 +29,5 @@
   "boot": "auto",
   "options": {},
   "schema": {},
-  "image": "redacid/torrserver-{arch}:{version}"
+  "image": "redacid/torrserver-{arch}:1.3.4"
 }
