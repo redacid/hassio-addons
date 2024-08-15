@@ -5,7 +5,7 @@
 FROM ubuntu:latest
 MAINTAINER Redacid <redacid@ios.in.ua>
 
-ENV TS_URL=https://releases.yourok.ru/torr/server_release.json
+ENV TS_URL=https://raw.githubusercontent.com/redacid/hassio-addons/main/ra-TorrServer/server_release.json
 ENV TS_RELEASE="latest"
 ENV TS_PORT="8090"
 ENV TS_UPDATE="true"
@@ -26,7 +26,7 @@ COPY update_TS.sh /update_TS.sh
 
 RUN export DEBIAN_FRONTEND=noninteractive \
 && chmod a+x /start_TS.sh && chmod a+x /update_TS.sh \
-&& apt-get update && apt-get upgrade -y \
+&& apt-get update && apt-get install apt-utils && apt-get upgrade -y \
 && apt-get install --no-install-recommends -y ca-certificates tzdata wget curl procps cron file jq unzip \
 && apt-get clean \
 && mkdir /TS && chmod -R 666 /TS \
