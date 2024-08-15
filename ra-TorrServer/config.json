@@ -12,7 +12,7 @@
   "url": "https://github.com/redacid/hassio-addons/tree/main/ra-TorrServer#readme",
   "startup": "services",
   "arch": [
-    "arm64",
+    "arm64v8",
     "amd64",
     "arm/v7"
   ],
@@ -31,5 +31,5 @@
   "boot": "auto",
   "options": {},
   "schema": {},
-  "image": "ksey/torrserver:latest"
+  "image": "redacid/torrserver-{arch}:{version}"
 }
