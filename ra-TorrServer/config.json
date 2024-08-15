@@ -1,6 +1,6 @@
 {
   "name": "TorrServer",
-  "version": "latest",
+  "version": "1.3.4",
   "slug": "TorrServer",
   "legacy": false,
   "maintenance": {
@@ -12,8 +12,9 @@
   "url": "https://github.com/redacid/hassio-addons/tree/main/ra-TorrServer#readme",
   "startup": "services",
   "arch": [
-    "aarch64",
-    "amd64"
+    "arm64",
+    "amd64",
+    "arm/v7"
   ],
   "ports": {
     "8090/tcp": 8090
