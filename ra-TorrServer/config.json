@@ -12,9 +12,9 @@
   "url": "https://github.com/redacid/hassio-addons/tree/main/ra-TorrServer#readme",
   "startup": "services",
   "arch": [
-    "arm64v8",
-    "amd64",
-    "arm/v7"
+    "aarch64",
+    "arm64",
+    "amd64"
   ],
   "ports": {
     "8090/tcp": 8090
