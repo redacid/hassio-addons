@@ -9,7 +9,7 @@
     "version_regex": "(\\d+\\.\\d+\\.?\\d*-?\\w*.?\\d*)"
   },
   "description": "Torrent Server",
-  "url": "https://github.com/petersendev/hassio-addons/tree/master/hyperion#readme",
+  "url": "https://github.com/redacid/hassio-addons/tree/main/ra-TorrServer#readme",
   "startup": "services",
   "arch": [
     "aarch64",
