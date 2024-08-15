@@ -25,5 +25,5 @@
   "boot": "auto",
   "options": {},
   "schema": {},
-  "image": "redacid/torrserver-{arch}:{version}"
+  "image": "redacid/torrserver-{arch}"
 }
