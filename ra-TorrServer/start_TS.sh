@@ -5,7 +5,7 @@
 ln -s $TS_TORR_DIR /torrents && rm $TS_TORR_DIR/torrents
 
 # Configuration file ts.ini source. Do not change!
-export INI_URL="https://raw.githubusercontent.com/MrKsey/torrserver/main/ts.ini"
+export INI_URL="https://raw.githubusercontent.com/redacid/hassio-addons/1.3.4/ra-TorrServer/ts.ini"
 if [ ! -e $TS_CONF_PATH/ts.ini ]; then
     wget -q --no-check-certificate --user-agent="$USER_AGENT" --content-disposition "$INI_URL" -O $TS_CONF_PATH/ts.ini
     if [ -e $TS_CONF_PATH/ts.ini ]; then
@@ -31,7 +31,7 @@ if [ -e $TS_CONF_PATH/ts.ini ]; then
 fi
 
 # File accs.db source. Do not change!
-export ACCS_URL="https://raw.githubusercontent.com/MrKsey/torrserver/main/accs.db"
+export ACCS_URL="https://raw.githubusercontent.com/redacid/hassio-addons/1.3.4/ra-TorrServer/accs.db"
 if [ ! -e $TS_CONF_PATH/accs.db ]; then
     wget -q --no-check-certificate --user-agent="$USER_AGENT" --content-disposition "$ACCS_URL" -O $TS_CONF_PATH/accs.db
     if [ -e $TS_CONF_PATH/accs.db ]; then
@@ -44,7 +44,7 @@ if [ ! -e $TS_CONF_PATH/accs.db ]; then
 fi
 
 # File config.db source. Do not change!
-export CONFIG_URL="https://raw.githubusercontent.com/MrKsey/torrserver/main/config.db"
+export CONFIG_URL="https://raw.githubusercontent.com/redacid/hassio-addons/1.3.4/ra-TorrServer/config.db"
 if [ ! -e $TS_CONF_PATH/config.db ]; then
     wget -q --no-check-certificate --user-agent="$USER_AGENT" --content-disposition "$CONFIG_URL" -O $TS_CONF_PATH/config.db
     if [ -e $TS_CONF_PATH/config.db ]; then
