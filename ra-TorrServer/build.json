@@ -1,8 +1,7 @@
 {
     "build_from": {
-        "armhf": "hassioaddons/debian-base-armhf:3.2.0",
-        "aarch64": "hassioaddons/debian-base-aarch64:3.2.0",
-        "amd64": "hassioaddons/debian-base:3.2.0"
+        "aarch64": "redacid/torrserver-aarch64:1.3.4",
+        "amd64": "redacid/torrserver-amd64:1.3.4"
     },
     "squash": false,
     "args": {
