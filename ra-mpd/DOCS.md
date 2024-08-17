@@ -65,6 +65,6 @@ To connect from Home Assistant use the following configuration:
 ```yaml
 media_player:
   - platform: mpd
-    host: 243ffc37-mpd
+    host: 160f5787_ra-mpd
     port: 6600
 ```
