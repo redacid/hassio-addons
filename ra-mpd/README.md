@@ -16,7 +16,7 @@ Inside this addon there is [ympd](https://ympd.org/), a simple web frontend for 
 
 # Configuration
 
-The configuration is located under the Docs tab or [DOCS.md](https://github.com/Poeschl/Hassio-Addons/blob/main/mpd/DOCS.md).
+The configuration is located under the Docs tab or [DOCS.md](https://github.com/redacid/hassio-addons/blob/main/ra-mpd/DOCS.md).
 
 
 [aarch64-badge]: https://img.shields.io/badge/aarch64-yes-green.svg?style=for-the-badge
@@ -27,8 +27,8 @@ The configuration is located under the Docs tab or [DOCS.md](https://github.com/
 [stage-badge]: https://img.shields.io/badge/Addon%20stage-stable-green.svg?style=for-the-badge
 [install-badge]: https://img.shields.io/badge/Install%20on%20my-Home%20Assistant-41BDF5?logo=home-assistant&style=for-the-badge
 [donation-badge]: https://img.shields.io/badge/Buy%20me%20a%20coffee-%23d32f2f?logo=buy-me-a-coffee&style=for-the-badge&logoColor=white
-[donation-url]: https://www.buymeacoffee.com/Poeschl
+[donation-url]: https://www.buymeacoffee.com/Redacid
 [repository-badge]: https://img.shields.io/badge/Add%20repository%20to%20my-Home%20Assistant-41BDF5?logo=home-assistant&style=for-the-badge
 
-[install-url]: https://my.home-assistant.io/redirect/supervisor_addon?addon=243ffc37_mpd
-[repository-url]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FPoeschl%2FHassio-Addons
+[install-url]: https://my.home-assistant.io/redirect/supervisor_addon?addon=160f5787_ra-mpd
+[repository-url]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fredacid%2Fhassio-addons
