@@ -1,6 +1,5 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
-
 ENV DISABLE_JEMALLOC=yes
 LABEL maintainer="Redacid redacid@ios.in.ua"
 #aarch64-base:3.13
