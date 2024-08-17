@@ -1,0 +1,27 @@
+[
+  {
+    "name": "aarch64",
+    "image": "ghcr.io/home-assistant/aarch64-base:3.18",
+    "buildArch": "arm64"
+  },
+  {
+    "name": "amd64", 
+    "image": "ghcr.io/home-assistant/amd64-base:3.18",
+    "buildArch": "amd64"
+  },
+  {
+    "name": "armhf",
+    "image": "ghcr.io/home-assistant/armhf-base:3.18",
+    "buildArch": "arm/v6"
+  },
+  {
+    "name": "armv7",
+    "image": "ghcr.io/home-assistant/armv7-base:3.18",
+    "buildArch": "arm/v7"
+  },
+  {
+    "name": "i386",
+    "image": "ghcr.io/home-assistant/i386-base:3.18",
+    "buildArch": "i386"
+  }
+]
