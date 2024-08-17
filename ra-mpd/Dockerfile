@@ -1,6 +1,8 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
 
+ENV DISABLE_JEMALLOC=yes
+
 MAINTAINER Redacid <redacid@ios.in.ua>
 RUN apk add --no-cache \
         mpc=0.33-r2 \
