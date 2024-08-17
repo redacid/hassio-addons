@@ -1,5 +1,17 @@
 # MPD
 
+Fork of repository [Poeschl](https://github.com/Poeschl/Hassio-Addons)
+
+## New PKG Versions: 
+  * mpc=0.34-r0
+  * mpd=0.23.13-r0
+  * ympd=1.3.0-r12
+## New Base image version:
+  * 3.18
+
+## Solves the problem with 
+  * \<jemalloc\>: unsupported system page size 
+
 [MPD](https://www.musicpd.org/) is a free and open source music player. It plays audio files, organizes playlists and maintains a music database. For interaction client software is needed.
 Inside this addon there is [ympd](https://ympd.org/), a simple web frontend for interacting.
 
