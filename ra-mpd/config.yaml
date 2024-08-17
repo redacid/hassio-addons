@@ -8,11 +8,11 @@ url: https://github.com/redacid/hassio-addons/tree/main/ra-mpd
 ingress: true
 ingress_port: 6680
 arch:
-#  - armv7
-#  - armhf
+  - armv7
+  - armhf
   - aarch64
   - amd64
-#  - i386
+  - i386
 #image: ghcr.io/redacid/ha-mpd-{arch}
 image: redacid/ha-mpd-{arch}
 init: false
